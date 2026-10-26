@@ -1,0 +1,77 @@
+body {
+    font-family: 'Georgia', serif;
+    background-image: url('fondoparley.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(26, 37, 47, 0.8);
+    padding: 20px;
+    border-bottom: 5px solid #d4af37;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tarjeta {
+    background-color: rgba(26, 37, 47, 0.85); 
+    border: 2px solid #7f8c8d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+
+.foto-consejo {
+    width: 100%;
+    max-width: 400px; /* ¡Aquí se hace pequeña la imagen! */
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #d4af37;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #d4af37;
+    color: #1a252f;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #f1c40f;
+    transform: scale(1.05);
+}
